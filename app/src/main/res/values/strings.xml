@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Dice Roller</string>
+    <string name="name">Md. Tanvir Hossain</string>
+    <string name="about_me_image">About Me Image</string>
 </resources>
