@@ -1,5 +1,36 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Dice Roller</string>
     <string name="name">Md. Tanvir Hossain</string>
     <string name="about_me_image">About Me Image</string>
+    <string name="bio_string" tools:ignore="StringEscaping">Hi, This is Md. Tanvir hossain \n
+
+
+        B.Sc In CEE \n
+        M.Sc In CSE \n
+
+        Skills : \n
+        Linux KVM \n
+        QA Engineer\n
+        Windows\n
+
+
+        To perform any challenging job in the field of Software Quality Assurance where I can use my
+QA experience with my potential &amp; creativity, and so as to contribute positively for the betterment
+of the organization along with the scope for further learning and long-term career development. \n
+        \n
+
+ Whether you\'re looking for that perfect job, trying to make the most of your current job, or building a business all on your own,  \n
+        it\'s time to refocus your energy on your career. It's easy to get excited and feel amped up and ready to take on the world,  \n
+        but that feeling can be difficult to sustain over time. So what do you do? You look to the men and women who inspire us to keep pushing forward and listen to their words. \n
+
+Here is a collection of inspirational career quotes to fire you up and dare you to push your career forward to the next level.\n
+         \n
+
+
+You should tailor your career objective to the position you’re applying to. \n
+        One way to do this is by using language from the job posting you’re responding to. \n
+        Search the job description for keywords you can add to your objective to help it stand out and \n
+        make it more likely that the hiring manager will read the rest of your application materials.
+
+    </string>
 </resources>
