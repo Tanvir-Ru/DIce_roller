@@ -2,24 +2,39 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-
+        <TextView
+            android:id="@+id/name_text"
+            style="@style/name_style"
+            android:text="@string/name" />
 
 
 
         <EditText
             android:id="@+id/edit_nickname"
-            style="@style/name_style"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:autofillHints="Nickname"
             android:ems="10"
             android:hint="@string/May_i_know_you"
-            android:textColorHint="#78909C"
             android:inputType="textPersonName"
-            android:textIsSelectable="true" />
+            android:textColorHint="#78909C"
+            android:textIsSelectable="true"
+            android:layout_height="match_parent"  android:layout_width="wrap_content"/>
+        <Button
+            android:id="@+id/edit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/edit_button_string" />
+
+        <TextView
+            android:id="@+id/nickname_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_gravity="center_horizontal" />
 
 
 
